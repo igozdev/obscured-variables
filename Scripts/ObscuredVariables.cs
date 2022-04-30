@@ -12,7 +12,7 @@ namespace ObscuredVariables
 
         public OInt(int Value = 0)
         {   
-            Modifier = Random.Range(-100, 100);
+            Modifier = Random.Range(-5000, 5000);
             ModifiedValue = Value + Modifier;
         }
         
@@ -67,7 +67,7 @@ namespace ObscuredVariables
 
         public OUInt(uint Value = 0)
         {
-            Modifier = (uint)Random.Range(0, 200);
+            Modifier = (uint)Random.Range(0, 10000);
             ModifiedValue = Value + Modifier;
         }
 
@@ -122,7 +122,7 @@ namespace ObscuredVariables
 
         public OLong(long Value = 0)
         {
-            Modifier = Random.Range(0, 200);
+            Modifier = Random.Range(-50000, 50000);
             ModifiedValue = Value + Modifier;
         }
 
@@ -177,7 +177,7 @@ namespace ObscuredVariables
 
         public OULong(ulong Value = 0)
         {
-            Modifier = (ulong)Random.Range(0, 200);
+            Modifier = (ulong)Random.Range(0, 100000);
             ModifiedValue = Value + Modifier;
         }
 
@@ -232,7 +232,7 @@ namespace ObscuredVariables
 
         public OFloat(float Value = 0)
         {
-            Modifier = Random.Range(-100f, 100f);
+            Modifier = Random.Range(-1000f, 1000f);
             ModifiedValue = Value + Modifier;
         }
 
@@ -287,7 +287,7 @@ namespace ObscuredVariables
 
         public ODouble(double Value = 0)
         {
-            Modifier = Random.Range(-100f, 100f);
+            Modifier = Random.Range(-1000f, 1000f);
             ModifiedValue = Value + Modifier;
         }
 
@@ -342,7 +342,7 @@ namespace ObscuredVariables
 
         public OChar(char Value = '\0')
         {
-            Modifier = Random.Range(90, 100);
+            Modifier = Random.Range(-5000, 5000);
             ModifiedValue = Value + Modifier;
         }
 
